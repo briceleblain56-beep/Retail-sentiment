@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>MyFXBook Outlook</title>
+<style>
+body {
+    margin: 0;
+    background-color: #0f172a;
+}
+iframe {
+    width: 100%;
+    height: 800px;
+    border: none;
+}
+</style>
 </head>
 <body>
 
-<div>
-  <script class="powered" type="text/javascript"
-    src="https://widgets.myfxbook.com/scripts/fxOutlook.js?type=1&symbols=EURUSD,GBPUSD,USDJPY,AUDUSD,USDCAD,USDCHF,NZDUSD">
-  </script>
-</div>
-
-<script type="text/javascript">
-  showOutlookWidget();
-</script>
+<iframe src="https://widgets.myfxbook.com/widgets/outlook.html?symbols=EURUSD,GBPUSD,USDJPY,AUDUSD,USDCAD,USDCHF,NZDUSD"></iframe>
 
 </body>
 </html>
